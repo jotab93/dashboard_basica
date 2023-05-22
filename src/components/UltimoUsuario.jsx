@@ -20,7 +20,7 @@ function UltimoUsuario() {
         <h5 className="card-title">Ultimo usuario creado</h5>
         {ultimoUsuario && (
           <>
-            <p className="card-text">{ultimoUsuario.nombre}{ultimoUsuario.apellido}</p>
+            <p className="card-text">{ultimoUsuario.nombre} {ultimoUsuario.apellido}</p>
             <p className="card-text">{ultimoUsuario.email}</p>
           </>
         )}
